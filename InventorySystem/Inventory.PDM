@@ -1,0 +1,236 @@
+[Root]
+Most Recent Package=inventoryDBNew
+
+
+[Package|InventorySetup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Personal\projects\Visual Basic\Inventory System\Program\installer
+
+[Package|InventorySetup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|InventorySetup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|InventorySetup|Files Found]
+
+[Package|InventorySetup|Files Released]
+
+[Package|InventorySetup|Missing Dependency Information]
+
+[Package|InventorySetup|Out-of-Date Dependency Information]
+
+[Package|InventorySetup|Files Added]
+
+[Package|InventorySetup|Files Removed]
+
+[Package|InventorySetup|Files In Project]
+D:\Personal\projects\Visual Basic\Inventory System\Program\Inventory.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|InventorySetup|Configure Registry Files]
+Applicable=No
+
+[Package|InventorySetup|Configure Remote Servers]
+Applicable=No
+
+[Package|InventorySetup|Install Locations]
+D:\Personal\projects\Visual Basic\Inventory System\Program\Inventory.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|InventorySetup|Configure Shared Files]
+Applicable=Yes
+D:\Personal\projects\Visual Basic\Inventory System\Program\Inventory.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|InventorySetup|Distribution]
+Type=single
+Size=
+Title=Inventory
+
+[Package|InventorySetup|IconGroups]
+Group0=Inventory
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|InventorySetup|Inventory]
+Icon1=Inventory.EXE
+Title1=Inventory
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|InventorySetup|Package]
+PackageFolder=d:\Personal\projects\Visual Basic\Inventory System\Program\installer
+ProjectFolder=D:\Personal\projects\Visual Basic\Inventory System\Program
+ServerSideCab=
+File1=d:\Personal\projects\Visual Basic\Inventory System\Program\installer\setup.exe
+File2=d:\Personal\projects\Visual Basic\Inventory System\Program\installer\Setup.Lst
+File3=d:\Personal\projects\Visual Basic\Inventory System\Program\installer\Inventory.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|inventoryDBNew|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\alvins\Desktop\inventory\installerNewest
+
+[Package|inventoryDBNew|Configure DAO ISAMs]
+Applicable=No
+
+[Package|inventoryDBNew|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|inventoryDBNew|Files Found]
+
+[Package|inventoryDBNew|Files Released]
+
+[Package|inventoryDBNew|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|inventoryDBNew|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|inventoryDBNew|Files Added]
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-black.otf=
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-blackit.otf=
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-bold.otf=
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-boldit.otf=
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-it.otf=
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-light.otf=
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-lightit.otf=
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-regular.otf=
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-semibold.otf=
+c:\documents and settings\alvins\desktop\inventory\font\myriadpro-semiboldit.otf=
+c:\documents and settings\alvins\desktop\inventory\database\inventorydb.mdb=
+c:\documents and settings\alvins\desktop\inventory\mouspointer\harrow.cur=
+
+[Package|inventoryDBNew|Files Removed]
+
+[Package|inventoryDBNew|Files In Project]
+C:\Documents and Settings\alvins\Desktop\inventory\Inventory.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Black.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-BlackIt.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Bold.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-BoldIt.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-It.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Light.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-LightIt.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Regular.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Semibold.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-SemiboldIt.otf=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\database\InventoryDB.mdb=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\mousPointer\harrow.cur=Yes
+
+[Package|inventoryDBNew|Configure Registry Files]
+Applicable=No
+
+[Package|inventoryDBNew|Configure Remote Servers]
+Applicable=No
+
+[Package|inventoryDBNew|Install Locations]
+C:\Documents and Settings\alvins\Desktop\inventory\Inventory.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Black.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-BlackIt.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Bold.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-BoldIt.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-It.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Light.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-LightIt.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Regular.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-Semibold.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\Font\MyriadPro-SemiboldIt.otf=$(WinPath)\fonts
+C:\Documents and Settings\alvins\Desktop\inventory\database\InventoryDB.mdb=$(AppPath)\database
+C:\Documents and Settings\alvins\Desktop\inventory\mousPointer\harrow.cur=$(AppPath)
+
+[Package|inventoryDBNew|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\alvins\Desktop\inventory\Inventory.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\alvins\Desktop\inventory\database\InventoryDB.mdb=No
+C:\Documents and Settings\alvins\Desktop\inventory\mousPointer\harrow.cur=No
+
+[Package|inventoryDBNew|Distribution]
+Type=single
+Size=
+Title=Inventory System
+
+[Package|inventoryDBNew|IconGroups]
+Group0=Inventory
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|inventoryDBNew|Inventory]
+Icon1=Inventory.exe
+Title1=Inventory
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|inventoryDBNew|Package]
+PackageFolder=C:\Documents and Settings\alvins\Desktop\inventory\installerNewest
+ProjectFolder=C:\Documents and Settings\alvins\Desktop\inventory
+ServerSideCab=
+File1=C:\Documents and Settings\alvins\Desktop\inventory\installerNewest\setup.exe
+File2=C:\Documents and Settings\alvins\Desktop\inventory\installerNewest\Setup.Lst
+File3=C:\Documents and Settings\alvins\Desktop\inventory\installerNewest\Inventory.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
