@@ -1,0 +1,51 @@
+Option Explicit
+Dim cn As New ADODB.Connection
+
+'add non sem class...
+Public Function AddNonSemClass(NID As Long, MID As Long) As Boolean
+  Dim RS As New ADODB.Recordset
+  Dim CNN As New ADODB.Connection
+  
+  CNN.Open ConnectionString
+  RS.Open "Select * From tblNonSemClass", CNN, adOpenStatic, adLockOptimistic
+  
+  RS.AddNew Array("NonSemClassID", "ModuleID"), Array(NID, MID)
+  RS.Update
+  
+  RS.Close
+  CNN.Close
+End Function
+
+'edit non sem class...
+Public Function EditNonSemClass(NID As Long, MID As Long) As Boolean
+  Dim RS As New ADODB.Recordset
+  Dim CNN As New ADODB.Connection
+  
+  CNN.Open ConnectionString
+  RS.Open "Select * From tblNonSemClass", CNN, adOpenStatic, adLockOptimistic
+  
+  RS.AddNew Array("NonSemClassID", "ModuleID"), Array(NID, MID)
+  RS.Update
+  
+  RS.Close
+  CNN.Close
+End Function
+
+'delete non sem class...
+Public Function AddNonSemClass(NID As Long, MID As Long) As Boolean
+  Dim RS As New ADODB.Recordset
+  Dim CNN As New ADODB.Connection
+
+  CNN.Open ConnectionString
+  RS.Open "Select * From tblNonSemClass", CNN, adOpenStatic, adLockOptimistic
+  
+  RS.AddNew Array("NonSemClassID", "ModuleID"), Array(NID, MID)
+  RS.Update
+
+  RS.Close
+  CNN.Close
+End Function
+
+
+
+
