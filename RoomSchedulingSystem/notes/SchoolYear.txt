@@ -1,0 +1,49 @@
+Option Explicit
+
+' add new school year...
+Public Function AddSchoolYear(SY As String) As Boolean
+  Dim RS As New ADODB.Recordset
+  Dim CNN As New ADODB.Connection
+  
+  CNN.Open ConnectionString
+  RS.Open "Select * From tblSchoolYear", CNN, adOpenStatic, adLockOptimistic
+  
+  RS.AddNew "SchoolYear", SY
+  RS.Update
+  
+  RS.Close
+  CNN.Close
+End Function
+
+' add new school year...
+Public Function EditSchoolYear(SY As String) As Boolean
+  Dim RS As New ADODB.Recordset
+  Dim CNN As New ADODB.Connection
+  
+  CNN.Open ConnectionString
+  RS.Open "Select * From tblSchoolYear", CNN, adOpenStatic, adLockOptimistic
+  
+  RS.AddNew "SchoolYear", SY
+  RS.Update
+  
+  RS.Close
+  CNN.Close
+End Function
+
+
+' add new school year...
+Public Function DeleteSchoolYear(SY As String) As Boolean
+  Dim RS As New ADODB.Recordset
+  Dim CNN As New ADODB.Connection
+  
+  CNN.Open ConnectionString
+  RS.Open "Select * From tblSchoolYear", CNN, adOpenStatic, adLockOptimistic
+  
+  RS.AddNew "SchoolYear", SY
+  RS.Update
+  
+  RS.Close
+  CNN.Close
+End Function
+
+
